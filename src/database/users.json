@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "username": "Alex",
+      "email": "alex@gmail.com",
+      "password": "alex123",
+      "phone": "7353470101",
+      "dob": "2022-12-07",
+      "id": 2
+    },
+    {
+      "username": "Basavesh S P",
+      "email": "basavesh@gmail.com",
+      "password": "basavesh@123",
+      "phone": "7022736401",
+      "dob": "2023-05-09",
+      "id": 3
+    },
+    {
+      "username": "Raju",
+      "email": "raju@gmail.com",
+      "password": "raju@123",
+      "phone": "7022736402",
+      "dob": "2023-05-08",
+      "id": 4
+    },
+    {
+      "username": "Rose",
+      "email": "rose@gmail.com",
+      "password": "rose@123",
+      "phone": "7022561232",
+      "dob": "2011-07-13",
+      "active_booking": [
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E342",
+          "seats": 1,
+          "from": "Bengaluru",
+          "to": "Kodagu",
+          "start": "6:00am",
+          "end": "2:00pm",
+          "journey_time": "8",
+          "price": 600,
+          "date": "2023-05-26"
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

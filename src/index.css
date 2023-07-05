@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+.navbar-box{
+  background-color: rgb(193, 199, 107);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 5px;
+  border-radius: 10px;
+}
+.logo{
+  margin:auto 10px;
+  
+}
+.logo img{
+  width: 200px;
+  height: 100px;
+  
+}
+.bus-flight{
+  
+  background-color: rgb(171, 176, 118);
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  border-radius: 10px;
+  height: 40px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.bus-flight span{
+  margin: auto 60px;
+  border: 1px ;
+ border-color: aqua;
+
+}
+.active-profile{
+  background-color: antiquewhite;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  border-radius: 10px;
+  height: 40px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 5px;
+
+}
+.active-profile span{
+  margin: auto 30px;
+  border: 1px ;
+ border-radius: 10px;
+
+}
+
+
+/* Dashboard Style */
+
+.dashboard-box{
+  width: 100vw;
+  height: 30vw;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left{
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background-color: aliceblue;
+
+}
+.left img{
+  width: 100%;
+  height: 100%;
+}
+.left button{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(203, 138, 138);
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+ right: 5px;
+  font-weight: 800;
+}
+.right{
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background-color: aliceblue;
+}
+.right img{
+  width: 100%;
+  height: 100%;
+}
+.right button{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(203, 138, 138);
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  font-weight: 800;
+}
+
+
+
+/* Footer style */
+.footer-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(193, 199, 107);
+
+}
+
+.aboutus{
+  width: 30%;
+}
+.footer-box i{
+  font-size: 20px;
+}
+.footer-box span{
+  font-size: 20px;
+}
+
+
+
+/* Profiledetails Style  */
+
+.profiledetails-box{
+  /* display: flex;
+  align-items: flex-end; */
+}
+
+.userimagedetails{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-style: italic;
+  font-weight: 600;
+}
+.userimagedetails button{
+  background-color: antiquewhite;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto 30px;
+  font-weight: 600;
+}
+.userimage{
+  width: 50%;
+  
+}
+.userimage img{
+  width: 80%;
+}
+.userdetails{
+  width: 50%;
+
+}
+.bookingsdetails{
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+}
+.bookingsdetails button{
+  background-color: rgb(195, 221, 176);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+
+
+
+/* ------------------------------------- BOOK -------------------------- */
+
+.inputs{
+  padding: 0px 100px;
+}
+.inputs h1{
+  margin: 20px 0px;
+}
+.inputs form{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.inputs form input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  margin: 5px;
+  padding-left:10px ;
+  padding-right:10px ;
+}
+.inputs form input[type="submit"]{
+  display: block;
+  width: 130px;
+  background-color: crimson;
+  border: solid 1px crimson;
+  color: white;
+  font-weight: 700;
+}
+.inputs form input[type="submit"]:hover{
+  background-color: white;
+  border: solid 1px crimson;
+  color: crimson;
+}
+.book-bus h3 , h1{
+  margin: 20px 0px;
+  text-align: center;
+}
+.book-bus table{
+  margin: 20px 100px;
+}
+.book-bus table thead {
+  background-color: white;
+}
+.book-bus table thead th{
+  margin: 0px 100px;
+}
+.inputs form input:focus + .boarding-points{
+  display: block;
+}
+.boarding-points{
+  display: none;
+  background-color: grey;
+  width: 200px;
+  position: absolute;
+  top: 36px;
+  left: 5px;
+}
+
+
+.boarding-points:hover{
+  display: block;
+}
+.boarding-points span{
+  display: block;
+}
+
+.inputs form input:focus + .destination-points{
+  display: block;
+}
+.destination-points{
+  display: none;
+  background-color: grey;
+  width: 200px;
+  position: absolute;
+  top: 36px;
+  left: 215px;
+}
+.destination-points:hover{
+  display: block;
+}
+.destination-points span{
+  display: block;
+}
+
+
+
+/* BOOK BUS STYLE */
+
+.bus-description span{
+  display: block;
+  background-color: rgb(142, 186, 186);
+}
+.bus-description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
